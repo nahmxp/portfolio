@@ -1,0 +1,192 @@
+/* Custom CSS */
+.navbar-custom {
+    background-color: #f8f9fa;
+}
+
+.hero-section {
+    padding-top: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em 2em;
+}
+
+.hero-content {
+    padding-top: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    gap: 2em;
+}
+
+.hero-text {
+    padding-left: 20%;
+    max-width: 800px;
+}
+
+.contact-btn {
+    margin-left: auto;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+}
+
+/* About Me Section */
+.about-section {
+    padding: 4em 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    padding-top: 100px;
+    padding-right: 20%; /* Adds spacing to the text on the left side */
+    max-width: 800px;
+}
+
+/* Profile Links Section */
+.profile-links-section {
+    padding: 4em 2em;
+}
+
+
+.profile-links-section .nav-tabs .nav-link {
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.profile-links-section .nav-tabs .nav-link.active {
+    background-color: #6a0dad;
+    color: #fff;
+}
+
+.profile-links-section .tab-content .card-body {
+    margin-top: 1.5em;
+}
+
+.profile-links-section img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+.profile-links-section h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.profile-links-section .btn-primary {
+    color: #fff;
+    background-color: #6a0dad;
+    border-color: #6a0dad;
+}
+
+.profile-links-section .btn-primary:hover {
+    background-color: #5a0caa;
+    border-color: #5a0caa;
+}
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #f0f4f8;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-logo img {
+    width: 120px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #6a0dad;
+}
+
+.footer-social a {
+    color: #333;
+    font-size: 18px;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #6a0dad;
+}
+
+/* Divider Line */
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 15px 0;
+}
+/* Footer Bottom */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-bottom span {
+    color: red;
+    /* Color for heart icon */
+}
+
+.footer-legal {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-legal a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-legal a:hover {
+    color: #6a0dad;
+}
