@@ -55,15 +55,13 @@
 
 
 .profile-links-section .nav-tabs .nav-link {
-    align-items: center;
-    justify-content: center;
     color: #333;
     font-weight: bold;
     margin: 0 5px;
 }
 
 .profile-links-section .nav-tabs .nav-link.active {
-    background-color: #6a0dad;
+    background-color: #333;
     color: #fff;
 }
 
@@ -84,15 +82,110 @@
 
 .profile-links-section .btn-primary {
     color: #fff;
-    background-color: #6a0dad;
-    border-color: #6a0dad;
+    background-color: #333;
+    border-color: #536c75;
 }
 
 .profile-links-section .btn-primary:hover {
-    background-color: #5a0caa;
-    border-color: #5a0caa;
+    background-color: #333;
+    border-color: #536c75;
 }
 
+
+/* Contact Section Styles */
+#contact {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.contact-title p {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+.contact-title h2 {
+    font-size: 28px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.contact-title p:nth-of-type(2) {
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #333;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+    max-width: 700px;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.terms input {
+    margin-right: 10px;
+}
+
+/* Button Style */
+button {
+    align-self: center;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+}
 
 
 /* Footer Styles */
@@ -135,7 +228,7 @@ footer {
 }
 
 .footer-nav a:hover {
-    color: #6a0dad;
+    color: #333;
 }
 
 .footer-social a {
@@ -146,7 +239,7 @@ footer {
 }
 
 .footer-social a:hover {
-    color: #6a0dad;
+    color: #333;
 }
 
 /* Divider Line */
@@ -171,7 +264,7 @@ hr {
 }
 
 .footer-bottom span {
-    color: red;
+    color: #333;
     /* Color for heart icon */
 }
 
@@ -188,5 +281,5 @@ hr {
 }
 
 .footer-legal a:hover {
-    color: #6a0dad;
+    color: #333;
 }
