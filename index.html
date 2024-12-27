@@ -259,6 +259,17 @@
             </div>
             <button type="submit">Submit</button>
         </form>
+        <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbx6GqaUWhlAM0-nNCO0_M4ek2g4FBkO0Um7qQqRXpR67jveNN1_B1FkX66bOGC6DCJ6/exec';
+                const form = document.getElementById('contactForm');
+    
+                form.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                        .then(response => alert('Form submitted successfully!'))
+                        .catch(error => console.error('Error!', error.message));
+                });
+            </script>
     </section>
 
 
